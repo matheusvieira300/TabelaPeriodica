@@ -1,0 +1,149 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    width: 1200px;
+    margin: 40px auto;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, .5);
+}
+
+.tabela-titulo {
+    font-weight: 300;
+    font-size: 1.5em;
+    margin-top: 10px;
+    text-transform: uppercase;
+    padding: 25px 0;
+    background-color: #e9ecef;
+}
+
+.tabela {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1170px;
+    margin: 40px auto;
+}
+
+.elemento {
+    width: 55px;
+    height: 55px;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 3px;
+    border: 1px solid;
+}
+
+.elemento:hover {
+ 
+    transform: scale(1.5);
+}
+
+.sem {
+    border: none;
+    width: 56.5px;
+    cursor: inherit !important;
+}
+
+
+.numero-atomico {
+    text-align: end;
+    font-size: .8em;
+}
+
+.simbolo {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.nome {
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.elemento:hover .nome {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.6s ease-in-out;
+    font-size: .6em;
+}
+
+.nao_metal{
+    background-color: greenyellow;
+}
+
+.alcalino{
+    background-color: orange;
+}
+
+.terroso{
+    background-color: gold;
+}
+
+.metal_transicao{
+    background-color: palevioletred;
+}
+
+.outros_metais{
+    background-color: gray;
+}
+
+.semimetal{
+    background-color: aquamarine;
+}
+
+.halogenio{
+    background-color:aqua;
+}
+
+.gas_nobre{
+    background-color: cornflowerblue;
+}
+
+.lantanideos{
+    background-color: blue;
+}
+
+.actinidios{
+    background-color: purple;
+}
+
+
+
+footer .legendas {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  footer .legendas span {
+    display: inline-block;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    margin-right: 10px;
+    border: 1px solid #000;
+  }
+
+
+
+
+
+
